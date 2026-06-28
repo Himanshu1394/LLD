@@ -1,0 +1,25 @@
+public class SlidingWindowConfig {
+    long windowSize = 5000;
+    int windowLimit = 5;
+
+    public SlidingWindowConfig(long windowSize, int windowLimit) {
+        this.windowSize = windowSize;
+        this.windowLimit = windowLimit;
+    }
+
+    public long getWindowSize() {
+        return windowSize;
+    }
+
+    public int getWindowLimit() {
+        return windowLimit;
+    }
+
+    public void setWindowSize(long windowSize) {
+        this.windowSize = windowSize;
+    }
+
+    public void setWindowLimit(int windowLimit) {
+        this.windowLimit = windowLimit;
+    }
+}
